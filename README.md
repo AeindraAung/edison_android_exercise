@@ -4,7 +4,7 @@ This app shows a fact via [fact free api](https://catfact.ninja/fact).
 ![Screenshot](./fact_app.png)
 
 ## Issues
-It works, but does not satisfy the requirements below.
+It works but does not satisfy the requirements below.
 
 ### Must
 We need to
@@ -17,7 +17,7 @@ We need to
 - Make the UI state immutable as much as possible
 
 ### Optional
-If we have a time, we want to
+If we have time, we want to
 - (Design) Add the `Top app bar` and update the design 🏰
 - (Testing) Add [JUnit5](https://github.com/mannodermaus/android-junit5) and `mockk`
 - (Gradle) Add a `version catalog` 📗
