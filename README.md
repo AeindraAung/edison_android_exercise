@@ -25,7 +25,9 @@ If we have a time, we want to
 - (Future growth) Add `Domain layer` 🚴‍️
 
 ## Time
-We expect you to spend 1 hour for `Must`, and another 1~2 hours for `Optional`.
+We expect you to spend
+- 1 hour on `Must`
+- Another 1~2 hours on `Optional`
 
 Optional requirements are optional, literally.  Please do them only if you can spend your valuable time on this.
 
