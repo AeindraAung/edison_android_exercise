@@ -24,8 +24,14 @@ If we have a time, we want to
 - (Future growth) `Modularize` the app ✌🏻
 - (Future growth) Add `Domain layer` 🚴‍️
 
+## Time
+We expect you to spend 1 hour for `Must`, and another 1~2 hours for `Optional`.
+
+Optional requirements are optional, literally.  Please do them only if you can spend your valuable time on this.
+
 ## To submit your solution
 Please
 - Fork this repo ⑂
-- Create a PR 📝
-- Send the PR link to us 🙏
+- Create a PR in your own repo 📝
+  - ❌ Please do not create a PR in this repo
+- Send your PR link to us 🙏
