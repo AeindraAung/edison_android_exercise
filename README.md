@@ -4,10 +4,11 @@ This app shows a fact via [fact free api](https://catfact.ninja/fact).
 ![Screenshot](./fact_app.png)
 
 ## Issues
-It works but does not satisfy the requirements below.
+It works, but does not satisfy some requirements.
 
-### Must
-We need to
+Please implement TODOs! (If you have time, please also try to do Optional.)
+
+### TODO
 - Show the `length` from the api response
 - Access data via `Data layer`
 - Add local data source (`DataStore`)
@@ -16,10 +17,15 @@ We need to
 - Add proper testing after introducing `Data layer` and `Hilt`
 - Make the UI state immutable as much as possible
 
+#### Note
+**You can skip issues** if you 
+- don't understand the meaning
+- need to take a long time to learn new things for you
+
 ### Optional
 If we have time, we want to
 - (Design) Add the `Top app bar` and update the design 🏰
-- (Testing) Add [JUnit5](https://github.com/mannodermaus/android-junit5) and `mockk`
+- (Testing) Add [JUnit5](https://github.com/mannodermaus/android-junit5) and `fake` or `mockk`
 - (Gradle) Add a `version catalog` 📗
 - (Future growth) `Modularize` the app ✌🏻
 - (Future growth) Add `Domain layer` 🚴‍️
