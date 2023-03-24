@@ -25,8 +25,12 @@ If we have time, we want to
 - (Future growth) Add `Domain layer` 🚴‍️
 
 ## Time
-We expect you to spend
-- 1 hour on `Must`
+We don't set the time limitation, so you can take your time. Please take it easy ✌🏻
+
+But at the same time, we don't want you to take too long time on this. (don't want to consume your valuable time.)
+
+So let's say,
+- 1~2 hours on `Must` issues
 - Another 1~2 hours on `Optional`
 
 Optional requirements are optional, literally.  Please do them only if you can spend your valuable time on this.
