@@ -9,20 +9,17 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import jp.speakbuddy.edisonandroidexercise.ui.theme.EdisonAndroidExerciseTheme
 
 @Composable
 fun FactScreen(
-    viewModel: FactViewModel
+    viewModel: FactViewModel = hiltViewModel()
 ) {
     Column(
         modifier = Modifier
@@ -35,24 +32,24 @@ fun FactScreen(
             alignment = Alignment.CenterVertically
         )
     ) {
-        var fact by remember { mutableStateOf("") }
+        val length by viewModel.lengthFlow.collectAsState(initial = "")
 
         Text(
-            text = "Fact",
+            text = "Length",
             style = MaterialTheme.typography.titleLarge
         )
 
         Text(
-            text = fact,
+            text = length,
             style = MaterialTheme.typography.bodyLarge
         )
 
         val onClick = {
-            fact = viewModel.updateFact { print("done") }
+            viewModel.updateLength { print("done") }
         }
 
         Button(onClick = onClick) {
-            Text(text = "Update fact")
+            Text(text = "Update length")
         }
     }
 }
@@ -61,6 +58,6 @@ fun FactScreen(
 @Composable
 private fun FactScreenPreview() {
     EdisonAndroidExerciseTheme {
-        FactScreen(viewModel = FactViewModel())
+        FactScreen()
     }
 }

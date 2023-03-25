@@ -12,7 +12,7 @@ Please implement TODOs! (If you have time, please also try to do Optional.)
 - Show the `length` from the api response
 - Access data via `Data layer`
 - Add local data source (`DataStore`)
-  - To show the previous fact for the next visit
+- To show the previous fact for the next visit
 - Add dependency injection by `Hilt`
 - Add proper testing after introducing `Data layer` and `Hilt`
 - Make the UI state immutable as much as possible
